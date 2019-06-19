@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./../css/styles.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="topnav">
+            <a class="active" href="./../homepage.html">Home</a>
+            <a href="./../login.html" >Login</a>
+            <a href="./../reg.html">Register</a>
+            <a href="./../board.html">Board</a>
+        </div>
+        <div class="container">
+            <h2 align="left" style="font-size:18px;">Author: somebody</h2> <!--Here'll be author from database-->
+            <div style="border-bottom-width: 2px; border-bottom-color: aqua;">
+                <a>Content</a> <!--Here it would be data from database-->
+            </div>
+        </div>
+        <form action="textarea1.php" method="post" style="position: fixed; left: 1%; bottom:15px; height: -100px;">
+            <p><b>Put here your comment</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <p><input type="submit" value="Comment"></p>
+        </form>
+    </body>
+</html>
